@@ -1,0 +1,18 @@
+{
+  "name": "periodic table backend",
+  "version": "1.0.0",
+  "description": "Atomic Number\r Standard State\r atomic weight (n)\r atomic radius\r electronic configuration\r oxidation state\r melting point\r boiling point\r density\r Ionization energy\r electron affinity",
+  "main": "app.js",
+  "scripts": {
+    "start": "cls && nodemon app",
+    "test": "cls && node app.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.1"
+  }
+}
